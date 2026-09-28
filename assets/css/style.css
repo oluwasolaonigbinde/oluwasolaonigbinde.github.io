@@ -351,6 +351,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .stat:last-child { border-right: none; }
 .stat:first-child, .stat:nth-child(n) { padding-left: 0; }
+.stat-number { display: inline-flex; align-items: baseline; white-space: nowrap; }
 .stat-value, .stat-value-text {
   font-family: var(--font-display);
   font-size: 2rem;
